@@ -1,0 +1,274 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+} 
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.navegador {
+    background-color: #f5cb02;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.logo{
+    width: 150px;
+    height: auto;
+}
+li{
+    list-style: none;
+    display: inline;
+}
+menu li a {
+    text-decoration: none;
+    color: #000000;
+}
+.navegador a {
+    color: #000000;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navegador .menu{
+    display: inline-block;
+    margin-left: 50px;
+    padding: 10px 15px;
+}
+
+
+
+
+.encabezado{
+    text-align: left;
+    padding: 70px ;
+    padding-bottom: 200px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.encabezado-img{
+    width: 135%;
+    height: auto;
+    display: inline-block;
+
+}
+.texto-encabezado{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 70px;
+    padding-top: 10px;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+p{
+    line-height: 1.1;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 0 0 20px 0;
+}
+
+.boton-amarillo{
+    background-color: #f5cb02;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+    .recuadro{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding:60px 50px;
+        background-color:#f5cb02;
+        box-shadow:0 22px 40px rgba(0,0,0,0.18);
+        border-radius:4px;
+        gap:28px
+    }
+    .recuadro img{
+        width:150px;
+        height:auto;
+    }
+    .recuadro-texto{
+        flex:1
+    }
+    .recuadro-texto h2{
+        font-family:'Bebas Neue';
+        font-size:36px;
+        margin-bottom:6px;
+        color:#000
+    }
+    .recuadro-texto p{
+        color:#444
+    }
+    .recuadrou{
+        width:calc(100% - 10%);
+        max-width:1000px;
+        margin-top:-200px;
+        background:#eaeaea;
+        padding:28px 36px;
+        display:flex;
+        align-items:center;
+        box-shadow:0 22px 40px rgba(0,0,0,0.18);
+        border-radius:4px
+    }
+    .stats-text{
+        flex:1
+    }
+    .amarillo{
+        color:#f4c542;
+        font-family:'Bebas Neue';
+        font-size:80px;
+        margin-bottom:6px
+    }
+
+    .amarille{
+        color:#f4c542;
+        font-family:'Bebas Neue';
+        font-size:50px;
+        font-weight: 100;
+    }
+    .stats-text p{
+        color:#444
+    }
+    .charts{
+        display:flex;
+        gap:24px;
+        align-items:center
+    }
+    .graficos img{
+        float: left;
+        width:200px;
+        padding: 20px 20px;
+    }
+
+.negro{
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+
+
+.we-can-help-you-to-be-happy{
+   text-align: left;
+    padding: 60px 50px;
+    padding-bottom: 100px;
+    background-color: #f5cb02;
+    color: #000000;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.we-can-texto{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+
+.we-can-titulo{
+    width: 150%;
+}
+
+.we-can-img{
+  width: 1500px;
+  float: inline-start;
+  height: auto;
+  display: flex;
+  padding-right: 230px;
+  padding-top: 360px;
+  
+}
+
+.read-more-n{
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.boton-negro{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+.happiness{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px ;
+}
+
+.cuadro-happiness {
+    background-color: #d5d5d5;
+    flex: 1;
+    box-shadow: 0 30px 50px #05000050;
+}
+.cuadro {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.cuadro .happ {
+    width: 50%;
+    border-radius: 6px;
+}
+
+.texto{
+    flex: 1;
+}
+
+.cuadro .texto  {
+    padding: 0px 20px;
+}
+
+.grafico{
+    width: 20%;
+    padding-top: 550px;
+    padding-right: 50px;
+}
