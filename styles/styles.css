@@ -129,7 +129,7 @@ p{
         width:calc(100% - 10%);
         max-width:1000px;
         margin-top:-200px;
-        background:#eaeaea;
+        background:#f3f3f3;
         padding:28px 36px;
         display:flex;
         align-items:center;
@@ -243,7 +243,7 @@ p{
 }
 
 .cuadro-happiness {
-    background-color: #d5d5d5;
+    background-color: #f3f3f3;
     flex: 1;
     box-shadow: 0 30px 50px #05000050;
 }
@@ -297,7 +297,7 @@ p{
 .content {
     max-width:900px;
     margin:0 auto 18px;
-    color:#dcdcdc
+    color:#f3f3f3;
 }
 .about-us-content {width:80%;
     max-width:740px;
@@ -321,18 +321,50 @@ p{
 .team .img img {
     width:100%;
     display:block;
-} 
-.txt{
-
 }
 .team p{
     max-width:420px;
     margin-bottom:18px;
 }
 
-.negro{
+.negrot{
     font-family: 'Bebas Neue', cursive;
     font-size: 120px;
     font-weight: 100;
     margin-bottom: 10px;
 }
+
+
+
+
+
+.try-our-method-for-free{
+    padding: 50px 0px 50px;
+    align-items: flex-start;
+    background-color: #f3f3f3;
+    color: #000000;
+    font-size: 20px;
+    display: flex;
+}
+
+.try-our-texto{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+
+.try-our-titulo{
+    width: 150%;
+}
+
+.try-our-img{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: left;
+}
+
+
