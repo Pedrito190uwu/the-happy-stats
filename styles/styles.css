@@ -96,6 +96,7 @@ p{
     text-decoration: none;
     display: inline-block;
     font-weight: bold;
+    margin: 20px;
 }
 
     .recuadro{
@@ -271,4 +272,67 @@ p{
     width: 20%;
     padding-top: 550px;
     padding-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about{
+    background:#050505;
+    color:#fff;
+    padding: 64px 0;
+    text-align:center;
+}
+.content {
+    max-width:900px;
+    margin:0 auto 18px;
+    color:#dcdcdc
+}
+.about-us-content {width:80%;
+    max-width:740px;
+    display:block;
+    margin:18px auto;
+    border-radius:2px
+}
+
+
+
+
+
+
+
+.team{
+    display:flex;
+    gap:40px;
+    align-items:center;
+    padding:80px 5%;
+}
+.team .img img {
+    width:100%;
+    display:block;
+} 
+.txt{
+
+}
+.team p{
+    max-width:420px;
+    margin-bottom:18px;
+}
+
+.negro{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 120px;
+    font-weight: 100;
+    margin-bottom: 10px;
 }
