@@ -580,3 +580,169 @@ footer a {
 }
 
 
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px 5%;
+}
+
+.section .text {
+    flex: 1;
+    min-width: 20px;
+}
+
+.section .text p {
+    max-width: 450px;
+    line-height: 1.5;
+}
+
+.section img {
+    flex: 1;
+    width: 1%;
+    max-width: 550px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+
+@media (min-width: 1280px) {
+    .section {
+        padding: 8px 10%;
+    }
+    .navegador .logo{
+        width: 10%;
+    }
+    .navegador li{
+        font-size: 130%;
+    }
+    .encabezado{
+        flex-direction: column;
+    }
+
+    .encabezado img{
+        width: 100%;
+    }
+
+    .encabezado p{
+        font-size: 150%;
+    }
+
+    .encabezado a{
+        font-size: 140%;
+    }
+
+    .recuadro p { 
+        font-size: 150%;
+    }
+    
+    .recuadro h2{ 
+        font-size: 310%;
+    }
+    .recuadro a{
+        font-size: 150%;
+    }
+    .we-can-help-you-to-be-happy{
+        flex-direction: column;
+    }
+    .we-can-help-you-to-be-happy img{
+       width: 100%;
+   
+    }
+    .we-can-help-you-to-be-happy p{
+        font-size: 120%;
+    }
+    .cuadro{
+        width: 55%;
+    }
+    .cuadro .happ{
+        width: 100%;
+    }
+    .grafico{
+        float: inline-end;
+        padding-left: -50px;
+    }
+
+
+    .try-our-method-for-free{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .try-our-img{
+        padding-left: 80%;
+    }
+
+    .subscribe{
+        flex-direction: column;
+    }
+    .team{
+        flex-direction: column;
+    }
+
+
+
+
+
+
+@media (max-width: 1279px) and (min-width: 921px) {
+    .section {
+        gap: 30px;
+    }
+
+    .section img {
+        max-width: 480px;
+    }
+}
+
+@media (max-width: 920px) and (min-width: 769px) {
+    .section {
+        gap: 25px;
+    }
+
+    .section img {
+        max-width: 450px;
+    }
+}
+
+
+
+@media (max-width: 768px) and (min-width: 481px) {
+    .section {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 5%;
+    }
+
+    .section img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .section .text p {
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .section {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 5%;
+    }
+
+    .section img {
+        max-width: 100%;
+    }
+
+    .section h1, .section h2, .section h3 {
+        font-size: 1.6rem;
+    }
+
+    .section p {
+        font-size: 0.9rem;
+    }
+}
